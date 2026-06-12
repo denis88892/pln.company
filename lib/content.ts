@@ -6,7 +6,7 @@ export const company = {
   taglineFull: "Бухгалтерский аутсорсинг\nдля бизнеса в Казахстане",
   phone: "+7 701 557 49 32",
   email: "Glavbuh@pln.kz",
-  location: "Казахстан",
+  location: "Караганда",
   whatsapp: "https://wa.me/77015574932",
   instagram: "https://www.instagram.com/pln.company.krg",
   twogis: "https://go.2gis.com/PJ5jZ",
