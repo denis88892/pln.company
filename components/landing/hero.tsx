@@ -60,8 +60,8 @@ export function Hero() {
             {/* Headline */}
             <AnimatedFadeUp delay={0.1}>
               <h1
-                className="mt-2 font-serif font-semibold leading-[0.95] tracking-tight"
-                style={{ color: '#2A1F17', fontSize: 'clamp(60px, 7.7vw, 124px)' }}
+                className="mt-2 font-semibold leading-[0.95] tracking-tight"
+                style={{ color: '#2A1F17', fontSize: 'clamp(60px, 7.7vw, 124px)', fontFamily: 'inherit' }}
               >
                 ЧТО ЕЩЁ<br />ВОЗМОЖНО?
               </h1>
