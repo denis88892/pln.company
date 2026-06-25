@@ -159,7 +159,7 @@ export function ChangesSection() {
 
         {/* Main heading */}
         <AnimatedFadeUp delay={0.1}>
-          <h2 className="mt-6 md:mt-10 font-serif text-2xl md:text-5xl lg:text-6xl font-medium leading-[1.35] md:leading-[1.25] tracking-tight text-center text-balance" style={{ color: '#2F241D' }}>
+          <h2 className="mt-6 md:mt-10 font-serif text-xl md:text-3xl lg:text-4xl font-medium leading-[1.35] md:leading-[1.25] tracking-tight text-center text-balance" style={{ color: '#2F241D' }}>
             Какие изменения замечают мои клиенты
           </h2>
         </AnimatedFadeUp>
