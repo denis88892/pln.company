@@ -165,7 +165,7 @@ export function Hero() {
               <path d="M 520 200 Q 480 350 500 550" stroke="url(#goldGradient)" strokeWidth="0.7" fill="none" opacity="0.7" />
             </svg>
 
-            {/* Portrait */}
+            {/* Portrait — scaled down 20% */}
             <Image
               src="/images/hero-portrait.png"
               alt="Карина Кашина — Access Consciousness"
@@ -173,24 +173,27 @@ export function Hero() {
               priority
               quality={100}
               sizes="56vw"
-              className="object-contain object-left"
+              className="object-contain object-right"
               style={{ 
                 zIndex: 5,
-                marginLeft: '-118px',
+                marginLeft: 'auto',
                 marginTop: '5px',
-                marginRight: '5px',
-                lineHeight: '5.1em'
+                marginRight: '20px',
+                lineHeight: '5.1em',
+                transform: 'scale(0.8)',
+                transformOrigin: 'right center',
+                height: '80%'
               }}
             />
 
-            {/* ── 3D OBJECTS: Depth layering for approved mockup ── */}
+            {/* ── 3D OBJECTS: Redistributed for balanced composition ── */}
 
-            {/* Feather — above head, rotated clockwise, ~15% larger */}
+            {/* Feather — upper right area, far from portrait */}
             <div
               className="absolute pointer-events-none animate-float"
               style={{ 
-                top: '5%', 
-                right: '22%', 
+                top: '8%', 
+                right: '8%', 
                 width: 254, 
                 height: 254, 
                 zIndex: 15, 
@@ -209,12 +212,12 @@ export function Hero() {
               />
             </div>
 
-            {/* Lotus — lower torso, ~15% smaller, overlapping jacket */}
+            {/* Lotus — mid-left area, separated from key */}
             <div
               className="absolute pointer-events-none animate-float"
               style={{ 
-                top: '55%', 
-                left: '8%', 
+                top: '42%', 
+                left: '4%', 
                 width: 143, 
                 height: 143, 
                 zIndex: 12, 
@@ -232,12 +235,12 @@ export function Hero() {
               />
             </div>
 
-            {/* Key — below lotus, rotated -20°, overlapping jacket */}
+            {/* Key — lower-left area, well-spaced from lotus */}
             <div
               className="absolute pointer-events-none animate-float"
               style={{ 
-                top: '68%', 
-                left: '12%', 
+                top: '72%', 
+                left: '8%', 
                 width: 200, 
                 height: 160, 
                 zIndex: 14, 
@@ -256,12 +259,12 @@ export function Hero() {
               />
             </div>
 
-            {/* Hourglass — lower-right near chair, rotated 12°, slightly larger */}
+            {/* Hourglass — far lower-right, anchored near bottom stats */}
             <div
               className="absolute pointer-events-none animate-float"
               style={{ 
-                bottom: '8%', 
-                right: '-20px', 
+                bottom: '5%', 
+                right: '2%', 
                 width: 240, 
                 height: 280, 
                 zIndex: 16, 
@@ -280,12 +283,12 @@ export function Hero() {
               />
             </div>
 
-            {/* Gold sphere — near feather, upper area */}
+            {/* Gold sphere — upper-mid area, near feather */}
             <div
               className="absolute pointer-events-none animate-float"
               style={{ 
-                top: '18%', 
-                right: '28%', 
+                top: '14%', 
+                right: '38%', 
                 width: 56, 
                 height: 56, 
                 zIndex: 17, 
@@ -303,12 +306,12 @@ export function Hero() {
               />
             </div>
 
-            {/* Gold sphere — between headline and portrait area */}
+            {/* Gold sphere — left-center, balanced composition */}
             <div
               className="absolute pointer-events-none animate-float"
               style={{ 
-                top: '28%', 
-                left: '48%', 
+                top: '24%', 
+                left: '16%', 
                 width: 72, 
                 height: 72, 
                 zIndex: 18, 
@@ -326,12 +329,12 @@ export function Hero() {
               />
             </div>
 
-            {/* Gold sphere — around lotus area, left side */}
+            {/* Gold sphere — mid-right area, above portrait */}
             <div
               className="absolute pointer-events-none animate-float"
               style={{ 
-                top: '50%', 
-                left: '-8%', 
+                top: '32%', 
+                right: '20%', 
                 width: 48, 
                 height: 48, 
                 zIndex: 11, 
@@ -349,12 +352,12 @@ export function Hero() {
               />
             </div>
 
-            {/* Gold sphere — around lotus area, right side */}
+            {/* Gold sphere — center-bottom, between key and hourglass */}
             <div
               className="absolute pointer-events-none animate-float"
               style={{ 
-                top: '58%', 
-                right: '55%', 
+                top: '65%', 
+                left: '26%', 
                 width: 40, 
                 height: 40, 
                 zIndex: 13, 
@@ -372,12 +375,12 @@ export function Hero() {
               />
             </div>
 
-            {/* Gold sphere — near key */}
+            {/* Gold sphere — lower-left corner, isolated placement */}
             <div
               className="absolute pointer-events-none animate-float"
               style={{ 
-                top: '75%', 
-                left: '28%', 
+                bottom: '28%', 
+                left: '0%', 
                 width: 52, 
                 height: 52, 
                 zIndex: 15, 
@@ -395,12 +398,12 @@ export function Hero() {
               />
             </div>
 
-            {/* Gold sphere — above hourglass */}
+            {/* Gold sphere — right side, mid-high, balanced */}
             <div
               className="absolute pointer-events-none animate-float"
               style={{ 
-                bottom: '32%', 
-                right: '8%', 
+                top: '48%', 
+                right: '32%', 
                 width: 68, 
                 height: 68, 
                 zIndex: 17, 
@@ -418,12 +421,12 @@ export function Hero() {
               />
             </div>
 
-            {/* Gold sphere — right edge, floating */}
+            {/* Gold sphere — far right, lower area, near hourglass */}
             <div
               className="absolute pointer-events-none animate-float"
               style={{ 
-                top: '42%', 
-                right: '2%', 
+                bottom: '20%', 
+                right: '12%', 
                 width: 44, 
                 height: 44, 
                 zIndex: 12, 
