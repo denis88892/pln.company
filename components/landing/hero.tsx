@@ -181,8 +181,7 @@ export function Hero() {
                 marginRight: '20px',
                 lineHeight: '5.1em',
                 transform: 'scale(0.8)',
-                transformOrigin: 'right center',
-                height: '80%'
+                transformOrigin: 'right center'
               }}
             />
 
