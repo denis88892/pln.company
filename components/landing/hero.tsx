@@ -28,7 +28,7 @@ export function Hero() {
               className="object-cover object-top"
             />
             {/* Soft gradient fade at bottom for mobile */}
-            <div className="absolute inset-x-0 bottom-0 h-20 bg-gradient-to-t from-background to-transparent lg:hidden" />
+            <div className="absolute inset-x-0 bottom-0 h-20 bg-gradient-to-t from-background to-transparent lg:hidden" style={{ paddingRight: '-1px' }} />
           </AnimatedScale>
         </div>
 
@@ -44,7 +44,7 @@ export function Hero() {
 
           {/* Main Headline */}
           <AnimatedFadeUp delay={0.1}>
-            <h1 className="mt-6 font-serif text-4xl font-medium leading-[1.1] tracking-tight text-foreground text-balance lg:text-5xl">
+            <h1 className="mt-6 font-serif text-4xl font-medium leading-[1.1] tracking-tight text-foreground text-balance lg:text-5xl" style={{ fontSize: '37px' }}>
               Что ещё возможно для вашей жизни, если убрать шум?
             </h1>
             <div className="mt-4 h-0.5 w-12 bg-accent" />
