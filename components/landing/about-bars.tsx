@@ -23,7 +23,7 @@ export function AboutBars() {
           <span className="text-[11px] uppercase tracking-[0.24em] text-muted-foreground">
             Что такое Access Bars
           </span>
-          <h2 className="mt-4 font-serif text-3xl font-medium leading-tight text-foreground md:text-[2.6rem] text-balance" style={{ fontFamily: 'inherit' }}>
+          <h2 className="mt-4 font-serif text-3xl font-medium leading-tight text-foreground md:text-[2.6rem] text-balance">
             Что происходит, когда ум наконец перестаёт шуметь?
           </h2>
 

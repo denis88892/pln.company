@@ -68,20 +68,19 @@ export function TrainingSection() {
           ))}
 
           <AnimatedItem>
-            <article className="flex flex-col justify-between rounded-2xl p-6 text-primary-foreground" style={{ backgroundColor: '#251D1A' }}>
+            <article className="flex flex-col justify-between rounded-2xl bg-primary p-6 text-primary-foreground">
             <div>
-              <span className="flex size-11 items-center justify-center rounded-full bg-primary-foreground/10" style={{ color: '#ffffff' }}>
+              <span className="flex size-11 items-center justify-center rounded-full bg-primary-foreground/10">
                 <GraduationCap className="size-6" strokeWidth={1.5} />
               </span>
-              <p className="mt-5 text-[15px] leading-relaxed" style={{ fontFamily: '"Manrope", sans-serif', color: 'rgba(255, 255, 255, 0.9)' }}>
+              <p className="mt-5 text-[15px] leading-relaxed text-primary-foreground/90">
                 На обучении вы получите не только знания, но и глубокий личный
                 опыт трансформации.
               </p>
             </div>
             <a
               href="#contact"
-              className="mt-6 inline-flex items-center justify-center gap-2 rounded-full px-6 py-3 text-sm font-medium transition-opacity hover:opacity-90"
-              style={{ backgroundColor: '#ffffff', color: '#000000' }}
+              className="mt-6 inline-flex items-center justify-center gap-2 rounded-full bg-primary-foreground px-6 py-3 text-sm font-medium text-primary transition-opacity hover:opacity-90"
             >
               Смотреть расписание
             </a>
